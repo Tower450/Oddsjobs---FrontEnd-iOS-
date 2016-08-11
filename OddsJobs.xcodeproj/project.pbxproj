@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		983564F61CE25D5400D145B4 /* UserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983564F51CE25D5400D145B4 /* UserTableViewController.swift */; };
+		9835658C1CE272FE00D145B4 /* PostDealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9835658B1CE272FE00D145B4 /* PostDealViewController.swift */; };
+		983565D11CE39DB600D145B4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983565D01CE39DB600D145B4 /* CoreLocation.framework */; };
+		98E5385D1CCE59320048F9F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E5385C1CCE59320048F9F6 /* AppDelegate.swift */; };
+		98E5385F1CCE59320048F9F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E5385E1CCE59320048F9F6 /* ViewController.swift */; };
+		98E538621CCE59320048F9F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98E538601CCE59320048F9F6 /* Main.storyboard */; };
+		98E538651CCE59320048F9F6 /* OddsJobs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 98E538631CCE59320048F9F6 /* OddsJobs.xcdatamodeld */; };
+		98E538671CCE59320048F9F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98E538661CCE59320048F9F6 /* Assets.xcassets */; };
+		98E5386A1CCE59320048F9F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98E538681CCE59320048F9F6 /* LaunchScreen.storyboard */; };
+		98E538751CCE59320048F9F6 /* OddsJobsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E538741CCE59320048F9F6 /* OddsJobsTests.swift */; };
+		98E538801CCE59320048F9F6 /* OddsJobsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E5387F1CCE59320048F9F6 /* OddsJobsUITests.swift */; };
+		98E5388E1CCE5CB40048F9F6 /* disruptiveinno.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98E5388D1CCE5CB40048F9F6 /* disruptiveinno.jpg */; };
+		98E538941CCE5F130048F9F6 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E538931CCE5F130048F9F6 /* RegisterController.swift */; };
+		98E538971CCE649E0048F9F6 /* SignInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E538961CCE649E0048F9F6 /* SignInController.swift */; };
+		98E5389B1CCE6A830048F9F6 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98E538991CCE6A830048F9F6 /* FBSDKCoreKit.framework */; };
+		98E5389C1CCE6A840048F9F6 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98E5389A1CCE6A830048F9F6 /* FBSDKLoginKit.framework */; };
+		98E538A21CCEA4920048F9F6 /* UserWebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E538A11CCEA4920048F9F6 /* UserWebServices.swift */; };
+		98E538A61CCEAC910048F9F6 /* FacebookServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E538A51CCEAC910048F9F6 /* FacebookServices.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98E538711CCE59320048F9F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98E538511CCE59320048F9F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98E538581CCE59320048F9F6;
+			remoteInfo = OddsJobs;
+		};
+		98E5387C1CCE59320048F9F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98E538511CCE59320048F9F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98E538581CCE59320048F9F6;
+			remoteInfo = OddsJobs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		983564F51CE25D5400D145B4 /* UserTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTableViewController.swift; sourceTree = "<group>"; };
+		9835658B1CE272FE00D145B4 /* PostDealViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDealViewController.swift; sourceTree = "<group>"; };
+		983565D01CE39DB600D145B4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		98E538591CCE59320048F9F6 /* OddsJobs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OddsJobs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98E5385C1CCE59320048F9F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		98E5385E1CCE59320048F9F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		98E538611CCE59320048F9F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98E538641CCE59320048F9F6 /* OddsJobs.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OddsJobs.xcdatamodel; sourceTree = "<group>"; };
+		98E538661CCE59320048F9F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98E538691CCE59320048F9F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		98E5386B1CCE59320048F9F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = OddsJobs/Info.plist; sourceTree = "<group>"; };
+		98E538701CCE59320048F9F6 /* OddsJobsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OddsJobsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98E538741CCE59320048F9F6 /* OddsJobsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddsJobsTests.swift; sourceTree = "<group>"; };
+		98E538761CCE59320048F9F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98E5387B1CCE59320048F9F6 /* OddsJobsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OddsJobsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98E5387F1CCE59320048F9F6 /* OddsJobsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddsJobsUITests.swift; sourceTree = "<group>"; };
+		98E538811CCE59320048F9F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98E5388D1CCE5CB40048F9F6 /* disruptiveinno.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = disruptiveinno.jpg; sourceTree = "<group>"; };
+		98E538931CCE5F130048F9F6 /* RegisterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		98E538961CCE649E0048F9F6 /* SignInController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInController.swift; sourceTree = "<group>"; };
+		98E538991CCE6A830048F9F6 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		98E5389A1CCE6A830048F9F6 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		98E5389D1CCE76170048F9F6 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "OddsJobs/Bridging-Header.h"; sourceTree = "<group>"; };
+		98E538A11CCEA4920048F9F6 /* UserWebServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserWebServices.swift; sourceTree = "<group>"; };
+		98E538A51CCEAC910048F9F6 /* FacebookServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookServices.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98E538561CCE59320048F9F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983565D11CE39DB600D145B4 /* CoreLocation.framework in Frameworks */,
+				98E5389C1CCE6A840048F9F6 /* FBSDKLoginKit.framework in Frameworks */,
+				98E5389B1CCE6A830048F9F6 /* FBSDKCoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98E5386D1CCE59320048F9F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98E538781CCE59320048F9F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98E538501CCE59320048F9F6 = {
+			isa = PBXGroup;
+			children = (
+				98E5385B1CCE59320048F9F6 /* OddsJobs */,
+				98E538731CCE59320048F9F6 /* OddsJobsTests */,
+				98E5387E1CCE59320048F9F6 /* OddsJobsUITests */,
+				98E5385A1CCE59320048F9F6 /* Products */,
+				98E538981CCE69F20048F9F6 /* FrameWorks */,
+			);
+			sourceTree = "<group>";
+		};
+		98E5385A1CCE59320048F9F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98E538591CCE59320048F9F6 /* OddsJobs.app */,
+				98E538701CCE59320048F9F6 /* OddsJobsTests.xctest */,
+				98E5387B1CCE59320048F9F6 /* OddsJobsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98E5385B1CCE59320048F9F6 /* OddsJobs */ = {
+			isa = PBXGroup;
+			children = (
+				98E5385C1CCE59320048F9F6 /* AppDelegate.swift */,
+				98E5385E1CCE59320048F9F6 /* ViewController.swift */,
+				98E538931CCE5F130048F9F6 /* RegisterController.swift */,
+				98E538961CCE649E0048F9F6 /* SignInController.swift */,
+				983564F51CE25D5400D145B4 /* UserTableViewController.swift */,
+				9835658B1CE272FE00D145B4 /* PostDealViewController.swift */,
+				98E538601CCE59320048F9F6 /* Main.storyboard */,
+				98E538661CCE59320048F9F6 /* Assets.xcassets */,
+				98E538681CCE59320048F9F6 /* LaunchScreen.storyboard */,
+				98E538631CCE59320048F9F6 /* OddsJobs.xcdatamodeld */,
+				98E538A41CCEAC7D0048F9F6 /* Services */,
+				98E538A01CCEA4730048F9F6 /* WebServices */,
+				98E538951CCE634E0048F9F6 /* images */,
+				98E538A31CCEA91C0048F9F6 /* Supporting Files */,
+			);
+			path = OddsJobs;
+			sourceTree = "<group>";
+		};
+		98E538731CCE59320048F9F6 /* OddsJobsTests */ = {
+			isa = PBXGroup;
+			children = (
+				98E538741CCE59320048F9F6 /* OddsJobsTests.swift */,
+				98E538761CCE59320048F9F6 /* Info.plist */,
+			);
+			path = OddsJobsTests;
+			sourceTree = "<group>";
+		};
+		98E5387E1CCE59320048F9F6 /* OddsJobsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				98E5387F1CCE59320048F9F6 /* OddsJobsUITests.swift */,
+				98E538811CCE59320048F9F6 /* Info.plist */,
+			);
+			path = OddsJobsUITests;
+			sourceTree = "<group>";
+		};
+		98E538951CCE634E0048F9F6 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				98E5388D1CCE5CB40048F9F6 /* disruptiveinno.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		98E538981CCE69F20048F9F6 /* FrameWorks */ = {
+			isa = PBXGroup;
+			children = (
+				983565D01CE39DB600D145B4 /* CoreLocation.framework */,
+				98E538991CCE6A830048F9F6 /* FBSDKCoreKit.framework */,
+				98E5389A1CCE6A830048F9F6 /* FBSDKLoginKit.framework */,
+			);
+			name = FrameWorks;
+			sourceTree = "<group>";
+		};
+		98E538A01CCEA4730048F9F6 /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				98E538A11CCEA4920048F9F6 /* UserWebServices.swift */,
+			);
+			name = WebServices;
+			sourceTree = "<group>";
+		};
+		98E538A31CCEA91C0048F9F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98E5389D1CCE76170048F9F6 /* Bridging-Header.h */,
+				98E5386B1CCE59320048F9F6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		98E538A41CCEAC7D0048F9F6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				98E538A51CCEAC910048F9F6 /* FacebookServices.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98E538581CCE59320048F9F6 /* OddsJobs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98E538841CCE59320048F9F6 /* Build configuration list for PBXNativeTarget "OddsJobs" */;
+			buildPhases = (
+				98E538551CCE59320048F9F6 /* Sources */,
+				98E538561CCE59320048F9F6 /* Frameworks */,
+				98E538571CCE59320048F9F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OddsJobs;
+			productName = OddsJobs;
+			productReference = 98E538591CCE59320048F9F6 /* OddsJobs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98E5386F1CCE59320048F9F6 /* OddsJobsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98E538871CCE59320048F9F6 /* Build configuration list for PBXNativeTarget "OddsJobsTests" */;
+			buildPhases = (
+				98E5386C1CCE59320048F9F6 /* Sources */,
+				98E5386D1CCE59320048F9F6 /* Frameworks */,
+				98E5386E1CCE59320048F9F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98E538721CCE59320048F9F6 /* PBXTargetDependency */,
+			);
+			name = OddsJobsTests;
+			productName = OddsJobsTests;
+			productReference = 98E538701CCE59320048F9F6 /* OddsJobsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		98E5387A1CCE59320048F9F6 /* OddsJobsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98E5388A1CCE59320048F9F6 /* Build configuration list for PBXNativeTarget "OddsJobsUITests" */;
+			buildPhases = (
+				98E538771CCE59320048F9F6 /* Sources */,
+				98E538781CCE59320048F9F6 /* Frameworks */,
+				98E538791CCE59320048F9F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98E5387D1CCE59320048F9F6 /* PBXTargetDependency */,
+			);
+			name = OddsJobsUITests;
+			productName = OddsJobsUITests;
+			productReference = 98E5387B1CCE59320048F9F6 /* OddsJobsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98E538511CCE59320048F9F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = DisruptiveInno;
+				TargetAttributes = {
+					98E538581CCE59320048F9F6 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = D6GBYRDM3S;
+					};
+					98E5386F1CCE59320048F9F6 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = D6GBYRDM3S;
+						TestTargetID = 98E538581CCE59320048F9F6;
+					};
+					98E5387A1CCE59320048F9F6 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = D6GBYRDM3S;
+						TestTargetID = 98E538581CCE59320048F9F6;
+					};
+				};
+			};
+			buildConfigurationList = 98E538541CCE59320048F9F6 /* Build configuration list for PBXProject "OddsJobs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98E538501CCE59320048F9F6;
+			productRefGroup = 98E5385A1CCE59320048F9F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98E538581CCE59320048F9F6 /* OddsJobs */,
+				98E5386F1CCE59320048F9F6 /* OddsJobsTests */,
+				98E5387A1CCE59320048F9F6 /* OddsJobsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98E538571CCE59320048F9F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98E5388E1CCE5CB40048F9F6 /* disruptiveinno.jpg in Resources */,
+				98E5386A1CCE59320048F9F6 /* LaunchScreen.storyboard in Resources */,
+				98E538671CCE59320048F9F6 /* Assets.xcassets in Resources */,
+				98E538621CCE59320048F9F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98E5386E1CCE59320048F9F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98E538791CCE59320048F9F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98E538551CCE59320048F9F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9835658C1CE272FE00D145B4 /* PostDealViewController.swift in Sources */,
+				98E538941CCE5F130048F9F6 /* RegisterController.swift in Sources */,
+				98E538A21CCEA4920048F9F6 /* UserWebServices.swift in Sources */,
+				98E5385F1CCE59320048F9F6 /* ViewController.swift in Sources */,
+				98E538651CCE59320048F9F6 /* OddsJobs.xcdatamodeld in Sources */,
+				98E538A61CCEAC910048F9F6 /* FacebookServices.swift in Sources */,
+				98E538971CCE649E0048F9F6 /* SignInController.swift in Sources */,
+				983564F61CE25D5400D145B4 /* UserTableViewController.swift in Sources */,
+				98E5385D1CCE59320048F9F6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98E5386C1CCE59320048F9F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98E538751CCE59320048F9F6 /* OddsJobsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98E538771CCE59320048F9F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98E538801CCE59320048F9F6 /* OddsJobsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98E538721CCE59320048F9F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98E538581CCE59320048F9F6 /* OddsJobs */;
+			targetProxy = 98E538711CCE59320048F9F6 /* PBXContainerItemProxy */;
+		};
+		98E5387D1CCE59320048F9F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98E538581CCE59320048F9F6 /* OddsJobs */;
+			targetProxy = 98E5387C1CCE59320048F9F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		98E538601CCE59320048F9F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98E538611CCE59320048F9F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		98E538681CCE59320048F9F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98E538691CCE59320048F9F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98E538821CCE59320048F9F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		98E538831CCE59320048F9F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98E538851CCE59320048F9F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/jonathantourangeau/Documents/FacebookSDK,
+				);
+				INFOPLIST_FILE = OddsJobs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DisruptiveInno.OddsJobs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OddsJobs/Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		98E538861CCE59320048F9F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/jonathantourangeau/Documents/FacebookSDK,
+				);
+				INFOPLIST_FILE = OddsJobs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DisruptiveInno.OddsJobs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OddsJobs/Bridging-Header.h";
+			};
+			name = Release;
+		};
+		98E538881CCE59320048F9F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OddsJobsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DisruptiveInno.OddsJobsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OddsJobs.app/OddsJobs";
+			};
+			name = Debug;
+		};
+		98E538891CCE59320048F9F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OddsJobsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DisruptiveInno.OddsJobsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OddsJobs.app/OddsJobs";
+			};
+			name = Release;
+		};
+		98E5388B1CCE59320048F9F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OddsJobsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DisruptiveInno.OddsJobsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OddsJobs;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		98E5388C1CCE59320048F9F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OddsJobsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DisruptiveInno.OddsJobsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OddsJobs;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98E538541CCE59320048F9F6 /* Build configuration list for PBXProject "OddsJobs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98E538821CCE59320048F9F6 /* Debug */,
+				98E538831CCE59320048F9F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98E538841CCE59320048F9F6 /* Build configuration list for PBXNativeTarget "OddsJobs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98E538851CCE59320048F9F6 /* Debug */,
+				98E538861CCE59320048F9F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98E538871CCE59320048F9F6 /* Build configuration list for PBXNativeTarget "OddsJobsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98E538881CCE59320048F9F6 /* Debug */,
+				98E538891CCE59320048F9F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98E5388A1CCE59320048F9F6 /* Build configuration list for PBXNativeTarget "OddsJobsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98E5388B1CCE59320048F9F6 /* Debug */,
+				98E5388C1CCE59320048F9F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		98E538631CCE59320048F9F6 /* OddsJobs.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				98E538641CCE59320048F9F6 /* OddsJobs.xcdatamodel */,
+			);
+			currentVersion = 98E538641CCE59320048F9F6 /* OddsJobs.xcdatamodel */;
+			path = OddsJobs.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 98E538511CCE59320048F9F6 /* Project object */;
+}
